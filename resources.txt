@@ -1,0 +1,79 @@
+llm
+
+# https://www.youtube.com/watch?v=aWKrL4z5H6w
+
+
+
+Date
+Departing Airport
+Arriving Airport
+Number of passengers
+Passenger ages
+
+Head of Software Engineering
+
+Round 1
+
+IBE flight search assistant:
+
+Problem: Customers make a lot of searches back and forth on our IBE trying to identify flights that match their requirements in terms of best price, duration, departure/arrival times, no of stops. It is a cumbersome process that involves doing between 3 to 10 searches by every customer over multiple sessions to complete their discovery. Making this process more intuitive and easier would result in increased bookings and improved customer experience.
+
+Solution: Build a user-friendly natural language chatbot experience that assists the customers to search for the most relevant flight options for their criteria. Customers will interact with the bot in natural language like: “give me the best flight options for myself, wife and 2 children aged 6 and 3 departing from Bahrain to Alexandria in the month of March. We plan to go for 1 week, I am looking for the best fare and prefer flights on the weekend without stops.”
+
+Collecting the requirements could be in 1 or many chat messages as free-flowing conversation and results to be presented back to the customer within the chat with links for more details when necessary.
+
+To build this solution you are expected to utilize:
+
+- A Large Language Model suitable for the job.
+
+- Data integration techniques such as Langchain, RAG, Text to Sql, Function calling or other suitable methods to interact with the company data and present it.
+
+- APIs from aeroSearch with a working test environment. (More details are available from confluence link (https://jiraisa.atlassian.net/wiki/spaces/SEARCH/pages/2423128129/Best+offer+NDC+API)
+
+You will have access to:
+
+- Google AI APIs (Access already shared)
+
+- OpenAI (Access is request based)
+
+- Any Opensource AI model/library (e.g. AI models/libraries available from HuggingFace)
+
+- VM machine from staging (Access shared with first contact point of each team)
+
+Selection criteria:
+
+Final submissions:
+
+Teams will have to submit a presentation and a code of their solution before the submission deadline.
+
+Presentation should include the following slides:
+
+1. Architecture of the solution built, tools and methods used.
+
+2. What problems it improves drastically for the user vs current situation
+
+3. Appendix : any additional information about the solution, guidelines, future thought about how it could be enhanced and scaled. Final submission is expected to be made to https://forms.office.com/r/FzA1aGhfRS which will be open till submission deadline of 09:59 AM (UAE time) 11th Sunday. Source code and presentation are expected to be submitted by one team member, along with team code (Hxx). Source code should be uploaded in zip format (Avoid packing binaries). Source code should be accompanied by a README file (text or word) which describes the steps to how to build and run the application. Place all files in single folder and name it with your team code and zip it before submission. All team code for each team is available from sheet: Hack303-FinalTeams.xlsx
+
+Final demo & presentation:
+
+The code of the prototype solution should be executable and working during the demo and afterwards for committee review.
+
+You are expected to do the demo from an environment which is accessible to the panel. You can either use VMs provided from staging to each team or use any platform like GCP to host the solution. But the solution should be properly configured and running so that the panel can play around. Locally deployed solutions will not be acceptable for final demo.
+
+Each team will have a 5 min slot to present their solution : 1 min for the first 2 slides of the presentation, 4 min to demo the working prototype solution with as many scenarios as possible.
+
+The committee will then test each solution and study the presentation in details to select the teams qualifying for the round 2.
+
+The solutions will be judged based on :
+
+1. AI Tools used (25%)
+
+2. Innovative integration of GenAI and other tools (25%)
+
+3. How well the solution solves the problem and has potential to improve the customer experience (40%).
+
+4. Quality of presentation & demo (10%)
+
+You will not be judged based on quality of UI, security, packaging, deployment, and scalability.
+
+Good luck.
